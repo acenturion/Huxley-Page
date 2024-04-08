@@ -3,7 +3,7 @@ import map from '../../assets/map.png'
 
 function LocateUs() {
     return (
-        <SectionLayout id={"locate-us"} className={"gap-4"}>
+        <SectionLayout id={"locate-us"} className={"gap-4 lg:justify-center"}>
             <a
                 href={"https://maps.app.goo.gl/biiyFGnTCBgZpfWm7"}
                 target="_blank"
