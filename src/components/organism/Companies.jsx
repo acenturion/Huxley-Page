@@ -1,0 +1,23 @@
+import hapagLogo from '../../assets/brands/Hapag_lloyd_logo.svg'
+import hsLogo from '../../assets/brands/HS_logo.svg'
+import maesrkLogo from '../../assets/brands/Maersk_Group_Logo 1.svg'
+import mediterraneanLogo from '../../assets/brands/Mediterranean_logo.svg'
+import SectionLayout from "../layouts/SectionLayout.jsx";
+function Companies() {
+    return (
+        <SectionLayout id={"companies"} className={"bg-primary-600 gap-4 md:flex-col lg:flex-row"}>
+            <div className={"flex flex-col items-center justify-center lg:items-start lg:w-fit text-secondary-50"}>
+                <h4 className={"text-lg md:text-xl"}>Trabajamos con</h4>
+                <h3 className={"text-2xl md:text-2xl font-semibold text-nowrap"}>Los siguientes clientes</h3>
+            </div>
+            <div className={"grid grid-cols-2 items-center justify-items-center gap-4 lg:grid-cols-4 w-full"}>
+                <img className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"Hapag company logo"} src={hapagLogo}/>
+                <img className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"Hamburg Sud company logo"} src={hsLogo}/>
+                <img className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"Maersk company logo"} src={maesrkLogo}/>
+                <img className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"mediterranean shipping company logo"} src={mediterraneanLogo}/>
+            </div>
+        </SectionLayout>
+    );
+}
+
+export default Companies;
