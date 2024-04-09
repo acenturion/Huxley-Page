@@ -19,6 +19,7 @@ import imgService14 from "../../assets/img/14.webp";
 import imgService15 from "../../assets/img/15.webp";
 import imgService16 from "../../assets/img/16.webp";
 import imgService17 from "../../assets/img/17.webp";
+import ControlSlider from "../molecules/ControlSlider.jsx";
 
 const images = [
     { id: 1, url: imgService1 },
@@ -59,18 +60,11 @@ function Explore() {
                     <p className={"text-xl md:text-2xl text-secondary-950 pb-4 text-left"}>Descubri las instalaciones y servicios
                         disponibles.</p>
                 </div>
-                <div className={"hidden md:flex text-secondary-950 flex-row items-center justify-center gap-4"}>
-                    <div
-                        onClick={handleOnPressLeft}
-                        className={"w-[48px] h-[48px] md:w-[72px] md:h-[72px] border-2 border-primary-600 rounded-xl flex items-center justify-center hover:cursor-pointer hover:bg-primary-600 duration-300"}>
-                        <Arrow width={24} height={24}/>
-                    </div>
-                    <div
-                        onClick={handleOnPressRight}
-                        className={"w-[48px] h-[48px] md:w-[72px] md:h-[72px] border-2 border-primary-600 rounded-xl flex items-center justify-center hover:cursor-pointer rotate-180 hover:bg-primary-600 duration-300"}>
-                        <Arrow width={24} height={24}/>
-                    </div>
-                </div>
+                <ControlSlider
+                    className={"md:flex"}
+                    handleOnPressLeft={handleOnPressLeft}
+                    handleOnPressRight={handleOnPressRight}
+                />
             </div>
 
             <Splide
@@ -91,6 +85,12 @@ function Explore() {
                     </SplideSlide>
                 ))}
             </Splide>
+
+            <ControlSlider
+                className={"md:hidden p-4"}
+                handleOnPressLeft={handleOnPressLeft}
+                handleOnPressRight={handleOnPressRight}
+            />
         </section>
     );
 }
