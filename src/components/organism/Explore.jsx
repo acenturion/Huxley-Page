@@ -61,7 +61,7 @@ function Explore() {
                         disponibles.</p>
                 </div>
                 <ControlSlider
-                    className={"md:flex"}
+                    className={"hidden md:flex"}
                     handleOnPressLeft={handleOnPressLeft}
                     handleOnPressRight={handleOnPressRight}
                 />
