@@ -45,7 +45,7 @@ const services = [
 
 function Services() {
     return (
-        <SectionLayout id={"services"} className={"md:flex-wrap"}>
+        <SectionLayout id={"services"} className={"md:flex-wrap gap-4 md:gap-8"}>
             {services.map(({id, title, content, url}, i) =>
                 <ServiceOption
                     key={id}

@@ -5,10 +5,10 @@ export default function ContactUs() {
     return (
         <SectionLayout id={"contact"} className={"md:flex-col"}>
             <div className={"lg:flex-col mb-8"}>
-                <h2 className={"text-3xl lg:text-5xl font-bold text-secondary-950 pb-4 mb-4 text-left"}>Contactanos</h2>
-                <p className={"text-xl lg:text-2xl text-secondary-950 pb-4 text-left"}>Ponte en contacto con nuestro equipo para consultas de operaciones o ventas.</p>
+                <h2 className={"text-3xl lg:text-5xl font-bold text-secondary-950 pb-4 mb-4 text-left"}>Contactános</h2>
+                <p className={"text-xl lg:text-2xl text-secondary-950 pb-4 text-left"}>Comunicate con nosotros para consultas de operaciones o ventas.</p>
             </div>
-            <div className="grid md:grid-cols-2 gap-16">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
                 <ContactOption
                     title={"Telefono"}
                     text={"(011) 4303-2331"}
@@ -31,7 +31,6 @@ export default function ContactUs() {
                     type={"email"}
                 />
             </div>
-
         </SectionLayout>
     )
 }

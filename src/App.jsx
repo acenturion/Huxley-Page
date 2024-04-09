@@ -15,8 +15,8 @@ function App() {
             <NavBar/>
             <Hero/>
             <Companies/>
-            <Services/>
             <AboutUs/>
+            <Services/>
             <Explore/>
             <ContactUs/>
             <LocateUs/>

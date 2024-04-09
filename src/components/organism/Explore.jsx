@@ -59,7 +59,7 @@ function Explore() {
                     <p className={"text-xl md:text-2xl text-secondary-950 pb-4 text-left"}>Descubri las instalaciones y servicios
                         disponibles.</p>
                 </div>
-                <div className={"text-secondary-950 flex flex-row items-center justify-center gap-4"}>
+                <div className={"hidden md:flex text-secondary-950 flex-row items-center justify-center gap-4"}>
                     <div
                         onClick={handleOnPressLeft}
                         className={"w-[48px] h-[48px] md:w-[72px] md:h-[72px] border-2 border-primary-600 rounded-xl flex items-center justify-center hover:cursor-pointer hover:bg-primary-600 duration-300"}>
@@ -81,13 +81,13 @@ function Explore() {
                     gap: '16px',
                     arrows: false,
                     fixedWidth: "500px",
-                    fixedHeight: "500px",
+                    fixedHeight: "400px",
                     speed: 250,
                 }}
             >
                 {images.map(({url, id}) => (
                     <SplideSlide key={id}>
-                        <img className={"h-full w-full aspect-[16/9] object-cover object-center"} src={url} alt="Image 1"/>
+                        <img className={"h-full w-full aspect-[16/9] object-cover object-center"} src={url} alt={"Image "+ id}/>
                     </SplideSlide>
                 ))}
             </Splide>
