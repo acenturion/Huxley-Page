@@ -3,6 +3,7 @@ import Phone from "../Icons/Phone.jsx";
 function ButtonContact({className = ''}) {
     return (
         <a href="#contact"
+           role="button"
            className={"bg-primary-600 " +
                "rounded-md " +
                "px-3.5 " +
@@ -10,8 +11,7 @@ function ButtonContact({className = ''}) {
                "text-sm " +
                "font-semibold " +
                "text-white " +
-               "shadow-sm " +
-               " transition duration-300 flex flex-row gap-2 " +
+               "transition duration-300 flex flex-row gap-2 " +
                "items-center " +
                "justify-center " +
                "hover:bg-primary-500 " +

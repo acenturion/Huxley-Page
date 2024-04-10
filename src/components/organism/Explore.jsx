@@ -1,6 +1,5 @@
 import {Splide, SplideSlide} from "@splidejs/react-splide";
 import {useRef} from "react";
-import Arrow from "../Icons/Arrow.jsx";
 
 import imgService1 from "../../assets/img/1.webp";
 import imgService2 from "../../assets/img/2.webp";

@@ -12,7 +12,7 @@ function ServiceOption({ title, content, url, pos}) {
                 ))}
             </div>
             <div
-                className={"w-full h-[250px] min-h-[250px] md:w-1/2 lg:w-5/6 md:h-[350px]  text-left rounded-2xl bg-primary-600 overflow-clip mb-4"}>
+                className={"w-full h-[250px] min-h-[250px] md:w-1/2 md:h-[350px] lg:w-2/3 lg:h-[400px]   text-left rounded-2xl bg-primary-600 overflow-clip mb-4"}>
                 <img
                     src={url}
                     className={"h-full w-full aspect-[16/9] object-cover transition duration-300 hover:scale-110"}
