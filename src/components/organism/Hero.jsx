@@ -8,7 +8,7 @@ function Hero() {
         <section className={
             'w-full ' +
             'h-[90vh] ' +
-            'md:h-[95vh] ' +
+            'max-h-screen ' +
             'flex ' +
             'flex-col ' +
             'items-center md:items-start ' +
@@ -24,7 +24,7 @@ function Hero() {
                  style={{backgroundImage: `url(${portada})`}}
         >
             <Logo className={"w-64 lg:w-[350px]"}/>
-            <h1 className={"drop-shadow-sm text-7xl md:text-7xl lg:text-8xl lg:font-black text-secondary-50 font-bold text-center md:text-left"}>Tu
+            <h1 className={"text-5xl md:text-7xl lg:text-8xl lg:font-black text-secondary-50 font-bold text-center md:text-left"}>Tu
                 depósito <br/> de confianza.</h1>
             <ButtonContact className={"md:text-2xl lg:text-3xl lg:font-bold md:py-2 md:px-6 lg:py-4 lg:px-6"}/>
         </section>

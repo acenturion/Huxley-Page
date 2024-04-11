@@ -5,7 +5,7 @@ import NavOptions from "../molecules/NavOptions.jsx";
 function Footer() {
     return (
         <footer className={"w-100 px-4 lg:px-24 mb-4"}>
-            <div className={"w-100 flex flex-row justify-between items-center"}>
+            <div className={"w-100 flex flex-row justify-between items-center py-4"}>
                 <Logo/>
                 <NavOptions id={"footer-nav"} />
             </div>
