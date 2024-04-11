@@ -1,32 +1,32 @@
 import ButtonContact from "../molecules/ButtonContact.jsx";
-import bg from '../../assets/h-principal.webp'
+import portada from '../../assets/portada.jpg'
+
+import Logo from "../atom/Logo.jsx";
 
 function Hero() {
     return (
         <section className={
             'w-full ' +
             'h-[90vh] ' +
-            'md:h-[85vh] ' +
+            'md:h-[95vh] ' +
             'flex ' +
             'flex-col ' +
-            'items-center lg:items-start ' +
-            'justify-start ' +
-            'gap-16 ' +
+            'items-center md:items-start ' +
+            'justify-start lg:justify-center ' +
+            'gap-20 ' +
             'bg-no-repeat ' +
             'px-4 ' +
             'md:px-24 ' +
-            'pt-16 ' +
-            'relative ' +
-            'bg-[-710px_-15px] ' +
-            'lg:bg-[-80px_-15px] ' +
-            '2xl:bg-right-top ' +
-            '2xl:bg-cover'
+            'pt-16 lg:pt-0 ' +
+            'bg-cover ' +
+            'md:bg-[length:165%] lg:bg-[length:100%]'
         }
-                 style={{backgroundImage: `url(${bg})`}}
+                 style={{backgroundImage: `url(${portada})`}}
         >
-            <h1 className={"text-5xl md:text-7xl lg:text-8xl xl:text-9xl lg:font-black text-primary-700 font-bold md:px-4 text-center lg:text-left 2xl:pt-16"}>Tu
-                depósito de confianza.</h1>
-            <ButtonContact className={"lg:hidden md:text-2xl lg:text-3xl lg:font-bold md:py-4 md:px-8 "}/>
+            <Logo className={"w-64 lg:w-[350px]"}/>
+            <h1 className={"drop-shadow-sm text-7xl md:text-7xl lg:text-8xl lg:font-black text-secondary-50 font-bold text-center md:text-left"}>Tu
+                depósito <br/> de confianza.</h1>
+            <ButtonContact className={"md:text-2xl lg:text-3xl lg:font-bold md:py-2 md:px-6 lg:py-4 lg:px-6"}/>
         </section>
     );
 }

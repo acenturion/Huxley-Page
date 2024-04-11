@@ -1,13 +1,13 @@
 import logoImg from '../../assets/logo-huxley.png';
 
-const Logo = () => (
-    <a href="#" className={""}>
+const Logo = ({className}) => (
+    <a href="#">
         <img
             src={logoImg}
             alt="Huxley Logo"
             width={"180px"}
-            height={"90px"}
-            className="aspect-[16/9] object-contain"
+            height={"66px"}
+            className={"aspect-auto " + className}
         />
     </a>
 );

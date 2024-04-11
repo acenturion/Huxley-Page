@@ -10,17 +10,18 @@ const services = [
         "id": "service-1",
         "title": "Deposito",
         "content": [
-            "Contamos con un depósito de 28.000 m² en una ubicación estratégica.",
-            "Capacidad Total para almacenar 5.000 TEUS. "
+            "Contamos con un depósito de 28.000 m² en una ubicación estratégica con capacidad Total para almacenar 5.000 TEUS. ",
+            "Zonas exclusivas de tránsito y estacionamiento.",
+            "Servicios sanitarios exclusivos para choferes y seguridad física las 24 horas."
         ],
         "url": imgService3,
     },
     {
         "id": "service-2",
-        "title": "Logistica",
+        "title": "Logística y Transporte",
         "content": [
-            "Zonas exclusivas de tránsito y estacionamiento.",
-            "Servicios sanitarios exclusivos para choferes. Seguridad física 24hs."
+            "Realizamos traslados de contenedores a todo el país.",
+            "Solicita tu cotización online o presencialmente en nuestras oficinas."
         ],
         "url": imgService1,
     },
@@ -31,15 +32,6 @@ const services = [
             "Realizamos trabajos de reparaciones de estructuras, soldaduras, lavado y reparación de la maquinaria en contenedores refrigerados."
         ],
         "url": imgService16,
-    },
-    {
-        "id": "service-4",
-        "title": "Transporte",
-        "content": [
-            "Realizamos traslados de contenedores a todo el país.",
-            "Solicita tu cotización online o presencialmente en nuestras oficinas."
-        ],
-        "url": imgService15,
     }
 ]
 
