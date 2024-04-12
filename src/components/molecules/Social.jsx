@@ -3,8 +3,8 @@ import Linkedin from "../Icons/Linkedin.jsx";
 
 function Social({type, href}) {
     const Icon = () => {
-        if (type === "instagram") return <Instagram className={"p-2"}/>
-        if (type === "linkedin") return <Linkedin className={"p-2"}/>
+        if (type === "instagram") return <Instagram className={"w-[40px] p-2"}/>
+        if (type === "linkedin") return <Linkedin className={"w-[40px] p-2"}/>
     }
     return (
         <a
