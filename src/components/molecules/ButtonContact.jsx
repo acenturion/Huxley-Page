@@ -8,16 +8,16 @@ function ButtonContact({className = ''}) {
                "rounded-md " +
                "px-3.5 " +
                "py-2.5 " +
-               "text-sm " +
+               "text-xl " +
                "font-semibold " +
-               "text-white " +
+               "text-primary-white " +
                "transition duration-300 flex flex-row gap-2 " +
                "items-center " +
                "justify-center " +
                "hover:bg-primary-500 " +
                className}>
-            <Phone className={"w-5 h-5"}/>
-            <span>Contactanos</span>
+
+            <span>Contactános</span>
         </a>
     );
 }

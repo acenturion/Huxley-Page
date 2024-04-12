@@ -1,5 +1,5 @@
 import ButtonContact from "../molecules/ButtonContact.jsx";
-import portada from '../../assets/portada.jpg'
+import portada from '../../assets/portada.webp'
 
 import Logo from "../atom/Logo.jsx";
 
@@ -7,7 +7,7 @@ function Hero() {
     return (
         <section className={
             'w-full ' +
-            'h-[90vh] ' +
+            'h-[100vh] ' +
             'max-h-screen ' +
             'flex ' +
             'flex-col ' +
@@ -18,13 +18,12 @@ function Hero() {
             'px-4 ' +
             'md:px-24 ' +
             'pt-16 lg:pt-0 ' +
-            'bg-cover ' +
-            'md:bg-[length:165%] lg:bg-[length:125%] bg-[-100px_0] lg:bg-[0]'
+            'bg-cover '
         }
                  style={{backgroundImage: `url(${portada})`}}
         >
             <Logo className={"w-64 lg:w-[350px]"}/>
-            <h1 className={"text-5xl md:text-7xl lg:text-8xl lg:font-black text-secondary-100 font-bold text-center md:text-left"}>Tu
+            <h1 className={"text-5xl md:text-7xl lg:text-8xl lg:font-black accent-primary-white text-primary-white font-bold text-center md:text-left"}>Tu
                 depósito <br/> de confianza.</h1>
             <ButtonContact className={"md:text-2xl lg:text-3xl lg:font-bold md:py-2 md:px-6 lg:py-4 lg:px-6"}/>
         </section>
