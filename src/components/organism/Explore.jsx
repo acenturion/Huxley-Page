@@ -56,7 +56,7 @@ function Explore() {
             <div className={"w-full flex flex-row justify-between px-4 md:px-8 lg:px-24 mb-8"} >
                 <div>
                     <h2 className={"text-3xl md:text-5xl font-bold text-secondary-950 pb-4 mb-4 text-left"}>Explora Huxley</h2>
-                    <p className={"text-xl md:text-2xl text-secondary-950 pb-4 text-left"}>Descubri las instalaciones y servicios
+                    <p className={"text-xl md:text-2xl text-secondary-950 pb-4 text-left"}>Descubrí las instalaciones y servicios
                         disponibles.</p>
                 </div>
                 <ControlSlider

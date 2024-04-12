@@ -14,7 +14,7 @@ function NavOptions({id}) {
                 <NavOption href={"#locate-us"}>
                     Ubicacion
                 </NavOption>
-                <ButtonContact className={"lg:text-xl"}/>
+                <ButtonContact className={"text-sm lg:text-xl"}/>
             </nav>
     );
 }

@@ -12,7 +12,7 @@ import Companies from "./components/organism/Companies.jsx";
 function App() {
     return (
         <>
-            <NavBar/>
+            {/*<NavBar/>*/}
             <Hero/>
             <Companies/>
             <AboutUs/>

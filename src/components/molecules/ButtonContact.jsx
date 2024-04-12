@@ -1,4 +1,3 @@
-import Phone from "../Icons/Phone.jsx";
 
 function ButtonContact({className = ''}) {
     return (
@@ -16,7 +15,6 @@ function ButtonContact({className = ''}) {
                "justify-center " +
                "hover:bg-primary-500 " +
                className}>
-
             <span>Contactános</span>
         </a>
     );

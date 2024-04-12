@@ -10,7 +10,7 @@ export default function ContactUs() {
             </div>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
                 <ContactOption
-                    title={"Telefono"}
+                    title={"Teléfono"}
                     text={"(011) 4303-2331"}
                     type={"tel"}
                 />

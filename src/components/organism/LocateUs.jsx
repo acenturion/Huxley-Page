@@ -15,7 +15,7 @@ function LocateUs() {
             <div className={"text-left"}>
                 <div className={"border-b border-primary-600 pb-4 mb-8"}>
                     <h3 className={"text-2xl lg:text-4xl text-secondary-950 pb-4 font-semibold"}>Dirección</h3>
-                    <p className={"text-xl lg:text-2xl text-secondary-950 pb-4"}>Av. Suarez 2350, Barracas, CABA.</p>
+                    <p className={"text-xl lg:text-2xl text-secondary-950 pb-4"}>Av. Suárez 2350, Barracas, CABA.</p>
                 </div>
                 <div>
                     <h3 className={"text-2xl lg:text-4xl text-secondary-950 pb-4 font-semibold"}>Horarios</h3>
@@ -26,7 +26,7 @@ function LocateUs() {
                         Sábados de <strong>7 a 11:45 Hs</strong>.
                     </p>
                     <p className={"text-xl lg:text-2xl text-secondary-950 pb-4"}>
-                        <strong>No se necesita turno para retiro o entrega de contenedores.</strong>
+                        <strong>Retiro o entrega de contenedores sin turno.</strong>
                     </p>
                 </div>
             </div>

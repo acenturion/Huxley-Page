@@ -1,4 +1,3 @@
-import imgService15 from "../../assets/img/15.webp";
 import imgService16 from "../../assets/img/16.webp";
 import imgService1 from "../../assets/img/1.webp";
 import imgService3 from "../../assets/img/3.webp";
@@ -8,11 +7,12 @@ import SectionLayout from "../layouts/SectionLayout.jsx";
 const services = [
     {
         "id": "service-1",
-        "title": "Deposito",
+        "title": "Depósito",
         "content": [
             "Contamos con un depósito de 28.000 m² en una ubicación estratégica con capacidad Total para almacenar 5.000 TEUS. ",
             "Zonas exclusivas de tránsito y estacionamiento.",
-            "Servicios sanitarios exclusivos para choferes y seguridad física las 24 horas."
+            "Servicios sanitarios exclusivos para choferes.",
+            "Seguridad física las 24 horas."
         ],
         "url": imgService3,
     },
@@ -21,7 +21,7 @@ const services = [
         "title": "Logística y Transporte",
         "content": [
             "Realizamos traslados de contenedores a todo el país.",
-            "Solicita tu cotización online o presencialmente en nuestras oficinas."
+            "Solicitá tu cotización online o presencialmente en nuestras oficinas."
         ],
         "url": imgService1,
     },
@@ -29,7 +29,7 @@ const services = [
         "id": "service-3",
         "title": "Reparaciones",
         "content": [
-            "Realizamos trabajos de reparaciones de estructuras, soldaduras, lavado y reparación de la maquinaria en contenedores refrigerados."
+            "Realizamos trabajos de reparación de estructuras, soldaduras, lavado y reparaciónes de la maquinaria en contenedores refrigerados."
         ],
         "url": imgService16,
     }
