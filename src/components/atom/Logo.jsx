@@ -5,7 +5,7 @@ const Logo = ({className}) => (
         <img
             src={logoImg}
             alt="Huxley Logo"
-            width={"266"}
+            width={"288"}
             height={"66"}
             className={"aspect-auto " + className}
         />

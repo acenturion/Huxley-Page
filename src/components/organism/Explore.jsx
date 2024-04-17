@@ -80,7 +80,7 @@ function Explore() {
             >
                 {images.map(({url, id}) => (
                     <SplideSlide key={id}>
-                        <img className={"h-full w-full aspect-[16/9] object-cover object-center"} src={url} alt={"Image "+ id}/>
+                        <img className={"h-full w-full aspect-[16/9] object-cover object-center"} width={"500"} height={"400"} src={url} alt={"Image "+ id}/>
                     </SplideSlide>
                 ))}
             </Splide>

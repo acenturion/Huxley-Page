@@ -6,7 +6,7 @@ function Footer() {
     return (
         <footer className={"w-100 px-4 lg:px-24 mb-4"}>
             <div className={"w-100 flex flex-row justify-between items-center py-4"}>
-                <Logo className={"w-44 lg:w-72"}/>
+                <Logo className={"w-44 lg:w-64"}/>
                 <NavOptions id={"footer-nav"} />
             </div>
             <div className={"w-100 border-t border-primary-600 flex flex-row justify-between items-center py-4 lg:py-8"}>
