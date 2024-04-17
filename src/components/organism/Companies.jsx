@@ -7,7 +7,7 @@ function Companies() {
     return (
         <SectionLayout id={"companies"} className={"bg-primary-600 gap-4 md:flex-col lg:flex-row"}>
             <div className={"flex flex-col items-center justify-center lg:items-start lg:w-fit text-secondary-50"}>
-                <h4 className={"text-lg md:text-xl"}>Trabajamos con</h4>
+                <h3 className={"text-lg md:text-xl"}>Trabajamos con</h3>
                 <h3 className={"text-2xl md:text-2xl font-semibold text-nowrap"}>Los siguientes clientes</h3>
             </div>
             <div className={"grid grid-cols-2 items-center justify-items-center gap-4 lg:grid-cols-4 w-full"}>
