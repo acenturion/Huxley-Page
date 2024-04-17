@@ -8,8 +8,8 @@ function Companies() {
     return (
         <SectionLayout id={"companies"} className={"bg-primary-600 gap-4 md:flex-col lg:flex-row"}>
             <div className={"flex flex-col text-center lg:text-left items-center justify-center lg:items-start lg:w-fit text-secondary-50"}>
-                <h3 className={"text-lg md:text-xl"}>Trabajamos con<br/><span
-                    className={"text-2xl md:text-2xl font-semibold text-nowrap"}>Los siguientes clientes</span></h3>
+                <p className={"text-lg md:text-xl"}>Trabajamos con<br/><span
+                    className={"text-2xl md:text-2xl font-semibold text-nowrap"}>Los siguientes clientes</span></p>
             </div>
             <div className={"grid grid-cols-2 items-center justify-items-center gap-4 lg:grid-cols-4 w-full"}>
                 <img width={"250"} height={"100"} className={"py-4 transition hover:scale-110 focus:scale-110"}
