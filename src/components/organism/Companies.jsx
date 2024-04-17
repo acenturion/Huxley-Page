@@ -11,10 +11,10 @@ function Companies() {
                 <h3 className={"text-2xl md:text-2xl font-semibold text-nowrap"}>Los siguientes clientes</h3>
             </div>
             <div className={"grid grid-cols-2 items-center justify-items-center gap-4 lg:grid-cols-4 w-full"}>
-                <img className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"Hapag company logo"} src={hapagLogo}/>
-                <img className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"Hamburg Sud company logo"} src={hsLogo}/>
-                <img className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"Maersk company logo"} src={maesrkLogo}/>
-                <img className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"mediterranean shipping company logo"} src={mediterraneanLogo}/>
+                <img width={"250"} height={"100"} className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"Hapag company logo"} src={hapagLogo}/>
+                <img width={"250"} height={"100"} className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"Hamburg Sud company logo"} src={hsLogo}/>
+                <img width={"250"} height={"100"} className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"Maersk company logo"} src={maesrkLogo}/>
+                <img width={"250"} height={"100"} className={"py-4 transition hover:scale-110 focus:scale-110"} alt={"mediterranean shipping company logo"} src={mediterraneanLogo}/>
             </div>
         </SectionLayout>
     );
