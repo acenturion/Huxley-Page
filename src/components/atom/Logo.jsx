@@ -7,7 +7,7 @@ const Logo = ({className}) => (
             alt="Huxley Logo"
             width={"288"}
             height={"66"}
-            className={"aspect-[288/66] " + className}
+            className={"aspect-auto " + className}
         />
     </a>
 );
