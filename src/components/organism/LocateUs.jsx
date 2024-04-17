@@ -1,5 +1,5 @@
 import SectionLayout from "../layouts/SectionLayout.jsx";
-import map from '../../assets/map.png'
+import map from '../../assets/map.webp'
 
 function LocateUs() {
     return (
