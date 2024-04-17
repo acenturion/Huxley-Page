@@ -14,8 +14,16 @@ function Footer() {
                     Copyright © Huxley Argentina
                 </div>
                 <div className={"flex flex-row gap-4"}>
-                    <Social href={"https://www.instagram.com/huxley_sa/"} type={"instagram"}/>
-                    <Social href={"https://www.linkedin.com/company/huxley-sa"} type={"linkedin"}/>
+                    <Social
+                        href={"https://www.instagram.com/huxley_sa/"}
+                        type={"instagram"}
+                        label={"Visitanos en Instagram"}
+                    />
+                    <Social
+                        href={"https://www.linkedin.com/company/huxley-sa"}
+                        type={"linkedin"}
+                        label={"Visitanos en Linkedin"}
+                    />
                 </div>
             </div>
         </footer>
