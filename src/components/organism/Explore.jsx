@@ -1,43 +1,33 @@
 import {Splide, SplideSlide} from "@splidejs/react-splide";
 import {useRef} from "react";
 
-import imgService1 from "../../assets/img/1.webp";
 import imgService2 from "../../assets/img/2.webp";
-import imgService3 from "../../assets/img/3.webp";
 import imgService4 from "../../assets/img/4.webp";
 import imgService5 from "../../assets/img/5.webp";
 import imgService6 from "../../assets/img/6.webp";
-import imgService7 from "../../assets/img/7.webp";
 import imgService8 from "../../assets/img/8.webp";
 import imgService9 from "../../assets/img/9.webp";
 import imgService10 from "../../assets/img/10.webp";
 import imgService11 from "../../assets/img/11.webp";
-import imgService12 from "../../assets/img/12.webp";
 import imgService13 from "../../assets/img/13.webp";
 import imgService14 from "../../assets/img/14.webp";
 import imgService15 from "../../assets/img/15.webp";
-import imgService16 from "../../assets/img/16.webp";
-import imgService17 from "../../assets/img/17.webp";
+import imgService19 from "../../assets/img/19.webp";
 import ControlSlider from "../molecules/ControlSlider.jsx";
 
 const images = [
-    { id: 1, url: imgService1 },
     { id: 2, url: imgService2 },
-    { id: 3, url: imgService3 },
     { id: 4, url: imgService4 },
     { id: 5, url: imgService5 },
     { id: 6, url: imgService6 },
-    { id: 7, url: imgService7 },
     { id: 8, url: imgService8 },
     { id: 9, url: imgService9 },
     { id: 10, url: imgService10 },
     { id: 11, url: imgService11 },
-    { id: 12, url: imgService12 },
     { id: 13, url: imgService13 },
     { id: 14, url: imgService14 },
     { id: 15, url: imgService15 },
-    { id: 16, url: imgService16 },
-    { id: 17, url: imgService17 }
+    { id: 19, url: imgService19 },
 ];
 
 function Explore() {
@@ -73,7 +63,7 @@ function Explore() {
                     type: 'loop',
                     gap: '16px',
                     arrows: false,
-                    fixedWidth: "500px",
+                    fixedWidth: "400px",
                     fixedHeight: "400px",
                     speed: 250,
                 }}

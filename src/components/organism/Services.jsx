@@ -29,7 +29,7 @@ const services = [
         "id": "service-3",
         "title": "Reparaciones",
         "content": [
-            "Realizamos trabajos de reparación de estructuras, soldaduras, lavado y reparaciónes de la maquinaria en contenedores refrigerados."
+            "Realizamos trabajos de reparación de estructuras, soldaduras, lavado y reparaciones de la maquinaria en contenedores refrigerados."
         ],
         "url": imgService16,
     }
