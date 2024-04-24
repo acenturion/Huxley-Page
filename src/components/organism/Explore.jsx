@@ -10,7 +10,7 @@ import imgService9 from "../../assets/img/9.webp";
 import imgService10 from "../../assets/img/10.webp";
 import imgService11 from "../../assets/img/11.webp";
 import imgService13 from "../../assets/img/13.webp";
-import imgService14 from "../../assets/img/14.webp";
+import imgService12 from "../../assets/img/12.webp";
 import imgService15 from "../../assets/img/15.webp";
 import imgService19 from "../../assets/img/19.webp";
 import ControlSlider from "../molecules/ControlSlider.jsx";
@@ -24,8 +24,8 @@ const images = [
     { id: 9, url: imgService9 },
     { id: 10, url: imgService10 },
     { id: 11, url: imgService11 },
+    { id: 12, url: imgService12 },
     { id: 13, url: imgService13 },
-    { id: 14, url: imgService14 },
     { id: 15, url: imgService15 },
     { id: 19, url: imgService19 },
 ];

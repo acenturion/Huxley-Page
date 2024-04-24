@@ -1,6 +1,6 @@
 import imgService17 from "../../assets/img/17.webp";
 import imgService7 from "../../assets/img/7.webp";
-import imgService12 from "../../assets/img/12.webp";
+import imgService14 from "../../assets/img/14.webp";
 import SectionLayout from "../layouts/SectionLayout.jsx";
 import GridImage from "../atom/GridImage.jsx";
 
@@ -30,7 +30,7 @@ function AboutUs() {
                         <GridImage src={imgService7} alt="Imagen 1"/>
                     </div>
                     <div className={"overflow-clip"}>
-                        <GridImage src={imgService12} alt="Imagen 2"/>
+                        <GridImage src={imgService14} alt="Imagen 2"/>
                     </div>
                 </div>
                 <div className={"bg-secondary-300 overflow-clip"}>
