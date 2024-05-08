@@ -8,18 +8,16 @@ import ContactUs from "./components/organism/ContactUs.jsx";
 import LocateUs from "./components/organism/LocateUs.jsx";
 import Companies from "./components/organism/Companies.jsx";
 import ContainersType from "./components/organism/ContainersType.jsx";
-import Message from "./components/organism/Message.jsx";
 
 function App() {
     return (
         <>
             <Hero/>
-            <Message/>
-            <AboutUs/>
             <Companies/>
+            <AboutUs/>
             <Services/>
-            <ContainersType/>
             <Explore/>
+            <ContainersType/>
             <ContactUs/>
             <LocateUs/>
             <Footer/>

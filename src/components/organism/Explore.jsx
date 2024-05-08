@@ -7,25 +7,19 @@ import imgService5 from "../../assets/img/5.webp";
 import imgService6 from "../../assets/img/6.webp";
 import imgService8 from "../../assets/img/8.webp";
 import imgService9 from "../../assets/img/9.webp";
-import imgService10 from "../../assets/img/10.webp";
 import imgService11 from "../../assets/img/11.webp";
-import imgService13 from "../../assets/img/13.webp";
-import imgService12 from "../../assets/img/12.webp";
 import imgService15 from "../../assets/img/15.webp";
 import imgService19 from "../../assets/img/19.webp";
 import ControlSlider from "../molecules/ControlSlider.jsx";
 
 const images = [
+    { id: 8, url: imgService8 },
     { id: 2, url: imgService2 },
     { id: 4, url: imgService4 },
     { id: 5, url: imgService5 },
     { id: 6, url: imgService6 },
-    { id: 8, url: imgService8 },
     { id: 9, url: imgService9 },
-    { id: 10, url: imgService10 },
     { id: 11, url: imgService11 },
-    { id: 12, url: imgService12 },
-    { id: 13, url: imgService13 },
     { id: 15, url: imgService15 },
     { id: 19, url: imgService19 },
 ];

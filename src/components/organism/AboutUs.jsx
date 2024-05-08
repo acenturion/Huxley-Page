@@ -1,6 +1,6 @@
 import imgService17 from "../../assets/img/17.webp";
 import imgService7 from "../../assets/img/7.webp";
-import imgService14 from "../../assets/img/14.webp";
+import imgService14 from "../../assets/img/20.webp";
 import SectionLayout from "../layouts/SectionLayout.jsx";
 import GridImage from "../atom/GridImage.jsx";
 
