@@ -11,7 +11,7 @@ function AboutUs() {
                 <h2 className={"text-3xl md:text-5xl font-bold text-secondary-950 pb-4 mb-4 text-left"}>Sobre
                     nosotros</h2>
                 <div className={"text-pretty text-left flex flex-col justify-start "}>
-                    <p className={"text-xl lg:text-2xl text-secondary-950 pb-4 leading-relaxed"}>Somos una empresa joven con <span
+                    <p className={"text-xl lg:text-2xl text-secondary-950 pb-4 leading-relaxed"}>Somos una empresa con <span
                         className={"font-bold"}>amplia experiencia</span> en el rubro de almacenamiento, transporte,
                         logística, reparación.</p>
                     <p className={"text-xl lg:text-2xl text-secondary-950 pb-4 leading-relaxed"}>Contamos con <span

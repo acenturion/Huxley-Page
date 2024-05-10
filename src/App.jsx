@@ -16,8 +16,8 @@ function App() {
             <Companies/>
             <AboutUs/>
             <Services/>
-            <Explore/>
             <ContainersType/>
+            <Explore/>
             <ContactUs/>
             <LocateUs/>
             <Footer/>
