@@ -26,7 +26,7 @@ function Companies() {
                     return (
                         <div key={brand.id} className={"w-full h-[100px] flex justify-center items-center object-fill"}>
                             <img
-                                 className={"w-full transition hover:scale-110 focus:scale-110 lg:grayscale hover:lg:grayscale-0 " + brand?.customClass }
+                                 className={"w-full transition hover:scale-110 focus:scale-110 " + brand?.customClass }
                                  alt={brand.name + " logo"} src={brand.img}/>
                         </div>
                     );
