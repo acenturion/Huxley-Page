@@ -11,7 +11,7 @@ function Companies() {
         {id: 2, name: "Hamburg Sud", img: hsLogo},
         {id: 3, name: "Maesrk", img: maesrkLogo, customClass: "h-full p-4"},
         {id: 5, name: "Triton", img: tritonLogo},
-        {id: 4, name: "Mediterranean shipping company", img: mediterraneanLogo, customClass: "h-full p-4 md:p-0"},
+        {id: 4, name: "Mediterranean shipping company", img: mediterraneanLogo, customClass: "p-4 md:p-0"},
     ]
     return (
         <SectionLayout id={"companies"} className={"bg-primary-600 gap-8 md:flex-col lg:flex-row"}>
