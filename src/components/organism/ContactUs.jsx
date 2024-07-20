@@ -12,22 +12,26 @@ export default function ContactUs() {
                 <ContactOption
                     title={"Teléfono"}
                     text={"(011) 4303-2331"}
+                    value={"43032331"}
                     type={"tel"}
                 />
                 <ContactOption
                     title={"Móvil"}
                     text={"+54 9 11-5301-6754"}
+                    value={"+5491153016754"}
                     type={"tel"}
                 />
 
                 <ContactOption
                     title={"Consultas"}
                     text={"consultas@huxleyargentina.com.ar"}
+                    value={"consultas@huxleyargentina.com.ar"}
                     type={"email"}
                 />
                 <ContactOption
                     title={"Operaciones"}
                     text={"operaciones@huxleyargentina.com.ar"}
+                    value={"operaciones@huxleyargentina.com.ar"}
                     type={"email"}
                 />
             </div>

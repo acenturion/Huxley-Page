@@ -1,7 +1,7 @@
 import Email from "../Icons/Email.jsx";
 import Phone from "../Icons/Phone.jsx";
 
-function ContactOption({title, text, type}) {
+function ContactOption({title, text, value, type}) {
     const Icon = () => {
         if (type === "email") {
             return (<Email className="w-5 h-5 flex-shrink-0 text-secondary-950 fill-primary-600"/>)
@@ -13,10 +13,10 @@ function ContactOption({title, text, type}) {
 
     const ContactText = () => {
         if (type === "email") {
-            return (<a href={"mailto: "+text} className="text-lg text-secondary-950 lg:text-2xl cursor-pointer">{text}</a>)
+            return (<a href={"mailto:"+value} className="text-lg text-secondary-950 lg:text-2xl cursor-pointer">{text}</a>)
         }
         if (type === "tel") {
-            return (<p className="text-lg text-secondary-950 lg:text-2xl">{text}</p>)
+            return (<a href={"tel:"+value} className="text-lg text-secondary-950 lg:text-2xl cursor-pointer">{text}</a>)
         }
     }
     return (
