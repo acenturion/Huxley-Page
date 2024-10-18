@@ -8,7 +8,7 @@ function LocateUs() {
                 href={"https://maps.app.goo.gl/biiyFGnTCBgZpfWm7"}
                 target="_blank"
                 rel="noopener"
-                className={"w-full h-[320px] md:h-full max-w-[600px] border border-primary-600 bg-primary-200 overflow-clip shadow"}>
+                className={"w-full h-[320px] md:h-full max-w-[600px] md:w-1/2 border border-primary-600 bg-primary-200 overflow-clip shadow"}>
                 <img className={"w-full h-full max object-cover transition hover:scale-110"}
                      alt={"Mapa donde se encuentra Huxley"} src={map}/>
             </a>
