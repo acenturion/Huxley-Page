@@ -20,7 +20,7 @@ function LocateUs() {
                 <div>
                     <h3 className={"text-2xl lg:text-4xl text-secondary-950 pb-4 font-semibold"}>Horarios</h3>
                     <p className={"text-xl lg:text-2xl text-secondary-950 pb-2"}>
-                        Lunes a Viernes de <strong>8 a 17:30 Hs</strong>.
+                        Lunes a Viernes de <strong>7 a 16:00 Hs</strong>.
                     </p>
                     <p className={"text-xl lg:text-2xl text-secondary-950 pb-2"}>
                         Sábados de <strong>7 a 11:45 Hs</strong>.
