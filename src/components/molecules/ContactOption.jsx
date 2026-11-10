@@ -1,32 +1,31 @@
 import Email from "../Icons/Email.jsx";
 import Phone from "../Icons/Phone.jsx";
+import Whatsapp from "../Icons/Whatsapp.jsx";
 
-function ContactOption({title, text, value, type}) {
-    const Icon = () => {
-        if (type === "email") {
-            return (<Email className="w-5 h-5 flex-shrink-0 text-secondary-950 fill-primary-600"/>)
-        }
-        if (type === "tel") {
-            return (<Phone className="w-5 h-5 flex-shrink-0 text-secondary-950 fill-primary-600"/>)
-        }
-    };
+const icons = {email: Email, tel: Phone, whatsapp: Whatsapp};
+const hrefs = {
+    email: (v) => "mailto:" + v,
+    tel: (v) => "tel:" + v,
+    whatsapp: (v) => "https://wa.me/" + v,
+};
 
-    const ContactText = () => {
-        if (type === "email") {
-            return (<a href={"mailto:"+value} className="text-lg text-secondary-950 lg:text-2xl cursor-pointer">{text}</a>)
-        }
-        if (type === "tel") {
-            return (<a href={"tel:"+value} className="text-lg text-secondary-950 lg:text-2xl cursor-pointer">{text}</a>)
-        }
-    }
+function ContactOption({title, items}) {
     return (
         <div className="flex items-center justify-center text-secondary-950">
             <div className="space-y-1">
-                <div className={"flex flex-row items-center justify-center gap-2"}>
-                    <Icon/>
-                    <p className="font-semibold text-xl lg:text-3xl lg:mb-2">{title}</p>
-                </div>
-                <ContactText/>
+                <p className="font-semibold text-xl lg:text-3xl lg:mb-2 text-center">{title}</p>
+                {items.map(({text, value, type}) => {
+                    const Icon = icons[type];
+                    const external = type === "whatsapp";
+                    return (
+                        <div key={value} className="flex flex-row items-center justify-center gap-2">
+                            <Icon className="w-5 h-5 flex-shrink-0 text-secondary-950 fill-primary-600"/>
+                            <a href={hrefs[type](value)}
+                               {...(external && {target: "_blank", rel: "noopener noreferrer"})}
+                               className="text-lg text-secondary-950 lg:text-2xl cursor-pointer">{text}</a>
+                        </div>
+                    );
+                })}
             </div>
         </div>
     );
