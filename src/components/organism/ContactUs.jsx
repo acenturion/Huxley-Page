@@ -8,13 +8,7 @@ export default function ContactUs() {
                 <h2 className={"text-3xl lg:text-5xl font-bold text-secondary-950 pb-4 text-left"}>Contactános</h2>
                 <p className={"text-xl lg:text-2xl text-secondary-950 pb-4 text-left"}>Comunicate con nosotros para consultas de operaciones o ventas.</p>
             </div>
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 md:gap-8">
-                <ContactOption
-                    title={"Teléfono"}
-                    items={[
-                        {text: "(011) 4303-2331", value: "43032331", type: "tel"},
-                    ]}
-                />
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
                 <ContactOption
                     title={"Consultas"}
                     items={[
